@@ -1,12 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Week-1-Task</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week-1-Task</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+
+    <header>
+        <nav>
+            <div class="main-nav">
+                <h1 class="company-logo">sneakers</h1>
+                <ul>
+                    <li><a href="#">Collections</a></li>
+                    <li><a href="#">Men</a></li>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="user">
+                <ul>
+                    <li><a href="#"><img src="cart.svg" alt=""></a></li>
+                    <li><a href="#"><img src="display-img.jpg" alt="profile-img"></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="product-display">
+            <div class="main-display-img">
+                <img src="display-img.jpg" alt="main-display-img">
+            </div>
+            <div class="other-display-img">
+                <img src="other-display-img-1.jpg" alt="other-display-img">
+                <img src="other-display-img-2.jpg" alt="other-display-img">
+                <img src="other-display-img-3.jpg" alt="other-display-img">
+                <img src="other-display-img-4.jpg" alt="other-display-img">
+            </div>
+        </section>
+        
+        <section class="product-info">
+            <h2 class="info-head">SNEAKERS COMPANY</h2>
+            <h3 class="info-subhead">Fall Limited Edition Sneakers</h3>
+            <p class="product-info-detailed">
+                These low-profile sneakers are your perfect casual wear companion.
+                Featuring a durable rubber outer sole, they'll withstand everything
+                the weather can offer.
+            </p>
+            <div class="product-price-detail">
+                <div class="price_discount-percent">
+                    <span class="product-discount-price">$125.00</span>
+                    <span class="discount-percent">50%</span>
+                </div>
+                <div class="product-initial-price">
+                    <p><strike>$250.00</strike></p>
+                </div>
+            </div>
+            <div class="transaction-btns">
+                <div class="increase_decrease-btns">
+                    <button class="decrease">-</button>
+                    <span class="amount">0</span>
+                    <span class="increase">+</span>
+                </div>
+                <div class="add-to-cart">
+                    <button type="button"><span class="cart-icon"><img src="cart.svg" alt=""></span>Add to cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
 </body>
 </html>
